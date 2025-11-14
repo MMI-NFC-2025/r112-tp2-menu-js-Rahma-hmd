@@ -1,0 +1,20 @@
+.media--fullwidth {
+    width: 100%;
+    height: auto;
+}
+
+nav>h4::before {
+    content: url("../../public/icones/book.svg");
+    margin-right: 0.5rem;
+}
+
+nav>ul>li>a::before {
+    content: url("../../public/icones/bagplus.svg");
+    margin-right: 0.5rem;
+}
+
+
+nav>ul>li>ul>li>a::before {
+    content: url("../../public/icones/archive.svg");
+    margin-right: 0.5rem;
+}

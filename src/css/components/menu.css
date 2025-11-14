@@ -5,7 +5,7 @@ On ajoute les propriétés "visibility: hidden" et "opacity: 0" pour masquer le 
   position:fixed; /* Fixe le menu en position, il ne défilera pas avec la page : https://developer.mozilla.org/fr/docs/Web/CSS/position#fixed */
   background-color:#F2A972 ; /* Définit la couleur de fond du menu en blanc : https://developer.mozilla.org/fr/docs/Web/CSS/background-color */
   display: flex; /* Utilise Flexbox pour la mise en page des éléments enfants : https://developer.mozilla.org/fr/docs/Web/CSS/display-inside#flex */
-  top: 0; /* Positionne le menu en haut de la page : https://developer.mozilla.org/fr/docs/Web/CSS/top */
+  top: 40px; /* Positionne le menu en haut de la page : https://developer.mozilla.org/fr/docs/Web/CSS/top */
   bottom: 0%; /* Étend le menu jusqu'en bas de la page */
   left: 0%; /* Positionne le menu à gauche de la page */
   right: 0%; /* Étend le menu jusqu'à droite de la page */
