@@ -1,63 +1,60 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Accueil</title>
-<link rel="stylesheet" href="/src/css/components/menu.css" />
-<link rel="stylesheet" href="/src/css/style.css" />
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-<script type="module" src="/src/js/script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose your language</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: #f4f4f4;
+        }
 
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 15px 0;
+        }
+
+        a {
+            display: inline-block;
+            padding: 12px 22px;
+            border: 2px solid #333;
+            border-radius: 8px;
+            text-decoration: none;
+            color: #333;
+            font-size: 1.2rem;
+            transition: 0.2s;
+        }
+
+        a:hover {
+            background: #333;
+            color: #fff;
+        }
+    </style>
 </head>
 
-
 <body>
-  <!-- En-tête de la page -->
-  <header class="header container">
-    
-
-    <div class="header__end">
-
-      <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
-        🍔
-      </button>
-
-      <!-- Menu principal -->
-      <nav class="header__menu menu" id="mainNav" aria-hidden="true">
-        <h4>Les Chats</h4>
-        <ul class="menu__list list-unstyled">
-          <li class="menu__item">
-            <a class="menu__link" href="./cats/chat-1.html">Chat 1</a>
-          </li>
-          <li class="menu__item">
-            <a class="menu__link" href="./cats/chat-2.html">Chat 2</a>
-          </li>
-        </ul> 
-        <h4>Les chiens</h4>
+    <nav>
         <ul>
-          <li class="menu__item">
-            <a class="menu__link" href="./dogs/chien-1.html">Chien 1</a>
-          </li>
-          <li class="menu__item">
-            <a class="menu__link" href="./dogs/chien-2.html">Chien 2</a>
-          </li>
+            <li>
+                <a onclick="document.cookie='nf_lang=en;path=/';" href="/en/index.html">Home in English</a>
+            </li>
+            <li>
+                <a onclick="document.cookie='nf_lang=fr;path=/';" href="/fr/index.html">Accueil en Français</a>
+            </li>
         </ul>
-      </nav>
-      <!-- Fin du menu principal -->
-    </div>
-  </header>
-  <!-- Contenu principal de la page -->
-  <main>
-    <p>Ce site enchante ses visiteurs avec des photos et vidéos de chats et de chiens qui jouent, dorment et partagent des
-    câlins. Chaque animal y dévoile sa petite bouille attendrissante : des chatons blottis sous des couvertures, des chiots
-    maladroits qui apprennent à courir, et des scènes de tendresse lors de rencontres inattendues. L’ambiance chaleureuse
-    invite à sourire et à s’attendrir devant ces amis doux et curieux qui réchauffent le cœur rien qu’en les regardant.
-
-  </main>
-  
-
+    </nav>
 </body>
 
 </html>

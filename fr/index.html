@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Accueil</title>
+  <link rel="stylesheet" href="/src/css/components/menu.css" />
+  <link rel="stylesheet" href="/src/css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <script type="module" src="/src/js/script.js"></script>
+</head>
+
+<body>
+
+  <header class="header container">
+    <div class="header__end">
+
+      <!-- BOUTON VERSION ANGLAISE -->
+      <div class="page-lang-switch">
+        <a href="/en/index.html" class="lang-btn">EN</a>
+      </div>
+
+      <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+        🍔
+      </button>
+
+      <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+        <h4>Les Chats</h4>
+        <ul class="menu__list list-unstyled">
+          <li class="menu__item"><a class="menu__link" href="/fr/cats/chat-1.html">Chat 1</a></li>
+          <li class="menu__item"><a class="menu__link" href="/fr/cats/chat-2.html">Chat 2</a></li>
+        </ul>
+        <h4>Les Chiens</h4>
+        <ul>
+          <li class="menu__item"><a class="menu__link" href="/fr/dogs/chien-1.html">Chien 1</a></li>
+          <li class="menu__item"><a class="menu__link" href="/fr/dogs/chien-2.html">Chien 2</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <p>
+      Ce site enchante ses visiteurs avec des photos et vidéos de chats et de chiens
+      qui jouent, dorment et partagent des câlins...
+    </p>
+  </main>
+
+</body>
+
+</html>

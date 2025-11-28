@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home</title>
+  <link rel="stylesheet" href="/src/css/components/menu.css" />
+  <link rel="stylesheet" href="/src/css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <script type="module" src="/src/js/script.js"></script>
+</head>
+
+<body>
+
+  <header class="header container">
+    <div class="header__end">
+
+      <!-- BOUTON VERSION FRANÇAISE -->
+      <div class="page-lang-switch">
+        <a href="/fr/index.html" class="lang-btn">FR</a>
+      </div>
+
+      <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+        🍔
+      </button>
+
+      <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+        <h4>Cats</h4>
+        <ul class="menu__list list-unstyled">
+          <li class="menu__item"><a class="menu__link" href="/en/cats/chat-1.html">Cat 1</a></li>
+          <li class="menu__item"><a class="menu__link" href="/en/cats/chat-2.html">Cat 2</a></li>
+        </ul>
+        <h4>Dogs</h4>
+        <ul>
+          <li class="menu__item"><a class="menu__link" href="/en/dogs/dog-1.html">Dog 1</a></li>
+          <li class="menu__item"><a class="menu__link" href="/en/dogs/dog-2.html">Dog 2</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <p>
+      This website delights visitors with photos and videos of cats and dogs
+      playing, sleeping, and cuddling...
+    </p>
+  </main>
+
+</body>
+
+</html>

@@ -57,3 +57,23 @@ z-index: 3;
 body {
   font-family: "Poppins", sans-serif;
 } 
+.lang-btns {
+  display: flex;
+  gap: 10px;
+  margin-right: 15px;
+}
+
+.lang-btn {
+  padding: 6px 12px;
+  border: 2px solid #333;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #333;
+  transition: 0.2s;
+}
+
+.lang-btn:hover {
+  background: #333;
+  color: #fff;
+}
